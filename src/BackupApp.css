@@ -1,0 +1,44 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem; /* space between elements */
+    justify-content: left; /* want it going left to right, wrapping around */
+    padding: 7rem; /* adding space so that list looks centered and has good spacing from other elements */
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 270px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    width: 100%;
+    height: 185px;
+    object-fit: contain;
+    background-color: #212121;
+}
+
+.project-info {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.project-title {
+
+}
+
+.project-genres {
+    /* color: rgb(60, 255, 0); */
+}
