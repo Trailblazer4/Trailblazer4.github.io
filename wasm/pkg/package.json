@@ -1,0 +1,15 @@
+{
+  "name": "cflat-wasm",
+  "type": "module",
+  "version": "0.2.0",
+  "files": [
+    "cflat_wasm_bg.wasm",
+    "cflat_wasm.js",
+    "cflat_wasm.d.ts"
+  ],
+  "main": "cflat_wasm.js",
+  "types": "cflat_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
